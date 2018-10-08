@@ -1,0 +1,3 @@
+#rmmod usbserial
+sudo modprobe usbserial vendor=0x0658 product=0x0280
+

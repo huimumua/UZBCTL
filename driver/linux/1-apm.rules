@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{idVendor}=="0658", ATTRS{idProduct}=="0280", NAME="ttyAPM", MODE="0666"

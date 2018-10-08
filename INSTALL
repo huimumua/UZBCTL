@@ -1,0 +1,9 @@
+For MAC OS X platform, run the command:
+make TARGET_PLATFORM=OSX
+
+For Linux, run the command:
+make
+
+For Windows, run Microsoft Visual C++ 2010 Express using the project file "uzbctl.sln".
+
+

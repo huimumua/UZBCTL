@@ -1,0 +1,15 @@
+# File version number,,,,,,,,
+ver=1,,,,,,,,
+# Note:,"If either Manf id, Product Type or Product id field is empty, it is treated as ""don't care"" for device matching purposes.",,,,,,,
+#,"Valid ""don't care"" combinations in the format  (Manf id, Product Type, Product id) are :",,,,,,,
+#,"(X , X, X), (V, X, X) and (V, V, X)  where V=valid value; X=don't care.",,,,,,,
+#," If any other field is empty, that field will not be configured into the device.",,,,,,,
+# Category is not used as a key to identify a device.,,,,,,,,
+# Device identification,,,,Sleeping device setting,Sensor setting,,,
+# Manf id (hex),Product Type (hex),Product id (hex),Category,Wake up Interval (seconds),Group id to receive sensor report,Config param number,Config param size (bytes),Config param value
+,,,,120,1,,,
+1,4952,3030,,,1,17,1,2
+1,5252,3130,,,1,17,1,2
+1,4952,3030,,14400,,,,
+1,5252,3130,,14400,,,,
+60,1,1,,,1,,,
